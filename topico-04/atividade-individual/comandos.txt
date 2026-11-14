@@ -1,0 +1,15 @@
+systemctl is-active nginx - verifica se o servico web esta ativo
+systemctl is-active ssh - verifica se o servico SSH esta ativo
+systemctl list-units --type=service --state=running - lista os servicos ativos
+sudo ss -tulpn - lista as portas em escuta e os processos associados
+sudo ufw status verbose - mostra o estado e as regras da firewall
+sudo ufw allow 22/tcp - permite o SSH
+sudo ufw allow 80/tcp - permite o HTTP
+sudo ufw show added - lista as regras adicionadas antes de ativar
+sudo ufw enable - ativa a firewall
+sudo ufw status numbered - mostra as regras numeradas
+curl -sI - mostra o cabecalho HTTP da resposta do servidor
+git status - mostra as alteracoes por registar
+git add . - prepara os ficheiros
+git commit -m - regista a versao
+git push - envia para o GitHub

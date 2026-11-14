@@ -1,0 +1,13 @@
+mkdir -p - cria a pasta do topico e a pasta de evidencias
+touch - cria ficheiros vazios
+whoami - mostra o utilizador atual
+id - mostra o UID, o GID e os grupos do utilizador
+groups - lista os grupos a que o utilizador pertence
+ls -l - lista ficheiros com permissoes, dono e grupo
+chmod 644 - dono le e escreve, grupo e outros so leem
+chmod 640 - dono le e escreve, grupo le, outros sem acesso
+chmod u+x - da permissao de execucao ao dono
+./script.sh - executa o script de teste
+systemctl status ssh - mostra o estado do servico SSH
+hostname -I - mostra os enderecos IP da maquina
+ssh - liga a um servidor remoto de forma segura

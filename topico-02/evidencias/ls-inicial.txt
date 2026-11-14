@@ -1,0 +1,4 @@
+total 12
+-rw-rw-r-- 1 kelby kelby 17 Nov 13 18:36 publico.txt
+-rw-rw-r-- 1 kelby kelby 18 Nov 13 18:36 restrito.txt
+-rw-rw-r-- 1 kelby kelby 50 Nov 13 18:36 script.sh

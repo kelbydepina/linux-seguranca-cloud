@@ -1,0 +1,9 @@
+whoami - mostra o utilizador atual
+hostname - mostrar o nome da maquina
+uname -a - mostra karnel e a arquitetura
+cat /etc/os-release - identifica a distribuicao e a versao
+df -h - mostra o espaco de disco
+free -h - mostra a memoria RAM
+nproc - mostra o numero de CPUs
+tree - mostra a estrutura da pasta
+

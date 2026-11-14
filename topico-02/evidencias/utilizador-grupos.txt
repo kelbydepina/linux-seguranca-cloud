@@ -1,0 +1,8 @@
+== whoami ==
+kelby
+
+== id ==
+uid=1000(kelby) gid=1000(kelby) groups=1000(kelby),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),101(lxd)
+
+== groups ==
+kelby adm cdrom sudo dip plugdev users lxd

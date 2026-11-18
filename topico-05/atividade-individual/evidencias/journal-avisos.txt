@@ -1,0 +1,10 @@
+Nov 18 03:06:50 Ubuntu-Server-Lab 55-scsi-sg3_id.rules[602]: WARNING: SCSI device sr0 has no device ID, consider changing .SCSI_ID_SERIAL_SRC in 00-scsi-sg3_config.rules
+Nov 18 03:06:52 Ubuntu-Server-Lab kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Nov 18 03:06:52 Ubuntu-Server-Lab kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Nov 18 03:06:52 Ubuntu-Server-Lab kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Nov 18 03:06:52 Ubuntu-Server-Lab (cron)[902]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Nov 18 03:07:02 Ubuntu-Server-Lab kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 2341403385 wd_nsec: 2341403167
+Nov 18 03:07:06 Ubuntu-Server-Lab chronyd[1008]: System clock wrong by 1.672865 seconds
+Nov 18 03:07:08 Ubuntu-Server-Lab chronyd[1008]: System clock was stepped by 1.672865 seconds
+Nov 18 03:07:17 Ubuntu-Server-Lab kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 5143906208 wd_nsec: 5143905746
+Nov 18 03:08:08 Ubuntu-Server-Lab 55-scsi-sg3_id.rules[1380]: WARNING: SCSI device sr0 has no device ID, consider changing .SCSI_ID_SERIAL_SRC in 00-scsi-sg3_config.rules

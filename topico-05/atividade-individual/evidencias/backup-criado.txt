@@ -1,0 +1,9 @@
+== Backup criado ==
+total 4.0K
+-rw-rw-r-- 1 kelby kelby 1.1K Nov 18 03:17 backup-site-topico03.tar.gz
+
+== Conteudo do backup ==
+drwxr-xr-x root/root         0 2026-11-14 04:05 topico-03/
+-rw-r--r-- root/root       617 2026-11-14 04:05 topico-03/sobre.html
+-rw-r--r-- root/root      1016 2026-11-14 04:05 topico-03/index.html
+-rw-r--r-- root/root       385 2026-11-14 04:05 topico-03/style.css

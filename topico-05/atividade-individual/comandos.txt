@@ -1,0 +1,17 @@
+uptime - mostra ha quanto tempo o sistema esta ligado e a carga media
+free -h - mostra a memoria total, usada e disponivel
+df -h / - mostra o espaco em disco da particao principal
+systemctl is-active nginx - verifica se o servico web esta ativo
+systemctl status nginx - mostra o estado detalhado do Nginx
+sudo journalctl -n 20 - mostra os registos recentes do sistema
+sudo journalctl -u ssh - mostra os registos do servico SSH
+sudo tail /var/log/nginx/access.log - mostra os ultimos pedidos ao site
+apt list --upgradable - lista os pacotes com atualizacao pendente
+tar -czvf - cria um backup comprimido
+tar -tzvf - lista o conteudo de um backup
+tar -xzvf - restaura um backup para uma pasta
+sha256sum - calcula o checksum do backup
+diff -r - compara o restauro com o original
+git add . - prepara os ficheiros
+git commit -m - regista a versao
+git push - envia para o GitHub

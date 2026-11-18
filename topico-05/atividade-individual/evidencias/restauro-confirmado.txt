@@ -1,0 +1,8 @@
+== Ficheiros restaurados ==
+total 12
+-rw-r--r-- 1 kelby kelby 1016 Nov 14 04:05 index.html
+-rw-r--r-- 1 kelby kelby  617 Nov 14 04:05 sobre.html
+-rw-r--r-- 1 kelby kelby  385 Nov 14 04:05 style.css
+
+== Comparacao com o original ==
+Identico ao original

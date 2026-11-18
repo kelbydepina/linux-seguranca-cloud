@@ -1,0 +1,20 @@
+Nov 18 03:08:42 Ubuntu-Server-Lab systemd[1]: Started session-3.scope - Session 3 of User kelby.
+Nov 18 03:10:05 Ubuntu-Server-Lab CRON[1576]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 18 03:10:05 Ubuntu-Server-Lab CRON[1578]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Nov 18 03:10:05 Ubuntu-Server-Lab CRON[1576]: pam_unix(cron:session): session closed for user root
+Nov 18 03:10:05 Ubuntu-Server-Lab systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 18 03:10:05 Ubuntu-Server-Lab systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 18 03:10:05 Ubuntu-Server-Lab systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 18 03:11:58 Ubuntu-Server-Lab dbus-daemon[884]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=911 comm="/usr/lib/snapd/snapd" label="unconfined")
+Nov 18 03:11:58 Ubuntu-Server-Lab systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+Nov 18 03:11:58 Ubuntu-Server-Lab systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Nov 18 03:11:58 Ubuntu-Server-Lab systemd[1]: Started systemd-timedated.service - Time & Date Service.
+Nov 18 03:11:58 Ubuntu-Server-Lab dbus-daemon[884]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Nov 18 03:11:59 Ubuntu-Server-Lab systemd[1]: update-notifier-download.service: Deactivated successfully.
+Nov 18 03:11:59 Ubuntu-Server-Lab systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+Nov 18 03:12:00 Ubuntu-Server-Lab snapd[911]: storehelpers.go:919: cannot refresh: snap has no updates available: "core24", "hwctl", "snapd"
+Nov 18 03:12:29 Ubuntu-Server-Lab systemd[1]: systemd-timedated.service: Deactivated successfully.
+Nov 18 03:12:33 Ubuntu-Server-Lab chronyd[1008]: Selected source 209.253.210.112 (0.ubuntu.pool.ntp.org)
+Nov 18 03:13:44 Ubuntu-Server-Lab systemd[1375]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache skipped, unmet condition check ConditionPathExists=/home/kelby/.launchpadlib/api.launchpad.net/cache
+Nov 18 03:13:56 Ubuntu-Server-Lab sudo[1688]: pam_unix(sudo:session): session opened for user root(uid=0) by kelby(uid=1000)
+Nov 18 03:13:56 Ubuntu-Server-Lab sudo[1688]: kelby : TTY=/dev/pts/0 ; PWD=/home/kelby/linux-seguranca-cloud/topico-05/atividade-individual ; USER=root ; COMMAND=/usr/bin/journalctl -n 20 --no-pager
